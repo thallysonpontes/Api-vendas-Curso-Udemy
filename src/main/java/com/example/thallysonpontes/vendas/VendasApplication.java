@@ -9,9 +9,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
-@EntityScan({"com.example.thallysonpontes.vendas.model", "com.example.thallysonpontes.vendas.Service", "com.example.thallysonpontes.vendas.Repository"})
 @SpringBootApplication
 @RestController
 public class VendasApplication {
