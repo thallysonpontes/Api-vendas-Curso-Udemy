@@ -32,4 +32,17 @@ Rest com JPA
 @Column gera e identifica a coluna do banco de dados referente ao mapeamento.
 @EntityManager- ELe é resposável por fazer todas as operações com a entidade dentro dessa classe é possivel chamar outras operações.
 
+**Anotations dos Controladores Rest
+
+@Controller 
+@Responsebody
+@RestController
+
+
+@RequestMapping
+Define a url base para que a aplicação seja encontrada, ou seja toda a requisição depende de um endpoint com essa anotation é basicamente identificada a rota ou o endpoint.È possivel receber parametros nos endopoint com para isso basta incluir no (@RequestMapping) um value ficando dessa maneira como exemplo: @RequestMapping(value"/hello/{NOME}<-- dentro desta chaves passa o parametro da requisição, dentro dele é identificado qual é o verbo http que vai acessar esse método.Essa identificação é realizada atravez do (method = RequestMethod.(otipodarequisição, GET, PUT, DELETE etc.)
+
+@PathVariable você define que esta recebendo uma variavel como parãmentro o path é o valor dentro do value da anotation @RequestMapping.
+
+
 
