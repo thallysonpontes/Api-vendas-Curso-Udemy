@@ -44,5 +44,8 @@ Define a url base para que a aplicação seja encontrada, ou seja toda a requisi
 
 @PathVariable você define que esta recebendo uma variavel como parãmentro o path é o valor dentro do value da anotation @RequestMapping.
 
+@RequestBody
+
+@ResponseBody
 
 
